@@ -1,0 +1,539 @@
+{
+    "Semaine 1": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "08:00",
+                            "fin": "09:45",
+                            "type": "Cours",
+                            "matiere": "ALGO",
+                            "enseignant": "Laurent Rozas",
+                            "salle": "E205"
+                        },
+                        {
+                            "debut": "10:00",
+                            "fin": "11:15",
+                            "type": "Cours",
+                            "matiere": "POGL",
+                            "enseignant": "Gruau",
+                            "salle": "E205"
+                        }
+                    ],
+                    "groupe2": [
+                        {
+                            "debut": "09:15",
+                            "fin": "11:00",
+                            "type": "Cours",
+                            "matiere": "ANGLAIS",
+                            "enseignant": "Christine Paulin",
+                            "salle": "E208"
+                        },
+                        {
+                            "debut": "14:00",
+                            "fin": "17:00",
+                            "type": "Cours",
+                            "matiere": "LOGIQUE",
+                            "enseignant": "Christine Paulin",
+                            "salle": "E203"
+                        }
+                    ]
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "10:15",
+                            "fin": "12:15",
+                            "type": "Cours",
+                            "matiere": "PFA",
+                            "enseignant": "Kym Nguyen",
+                            "salle": "E205"
+                        },
+                        {
+                            "debut": "12:30",
+                            "fin": "16:30",
+                            "type": "TP",
+                            "matiere": "ALGO",
+                            "enseignant": "Laurent Rozas",
+                            "salle": "E203"
+                        }
+                    ],
+                    "groupe2": [
+                        {
+                            "debut": "08:00",
+                            "fin": "10:00",
+                            "type": "TP",
+                            "matiere": "PROGWEB",
+                            "enseignant": "Laissaoui  Mehdi",
+                            "salle": "E208"
+                        },
+                        {
+                            "debut": "11:00",
+                            "fin": "17:00",
+                            "type": "TP",
+                            "matiere": "PCII",
+                            "enseignant": "Nicolas  Sabouret",
+                            "salle": "E205"
+                        }
+                    ]
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "12:15",
+                            "fin": "16:30",
+                            "type": "TP",
+                            "matiere": "LOGIQUE",
+                            "enseignant": "Christine  Paulin",
+                            "salle": "E208"
+                        },
+                        {
+                            "debut": "10:15",
+                            "fin": "12:15",
+                            "type": "TP",
+                            "matiere": "PFA",
+                            "enseignant": "Kym Nguyen",
+                            "salle": "E205"
+                        }
+                    ],
+                    "groupe2": [
+                        {
+                            "debut": "08:00",
+                            "fin": "10:00",
+                            "type": "TP",
+                            "matiere": "ANGLAIS",
+                            "enseignant": "Kristi Kidsti",
+                            "salle": "E203"
+                        },
+                        {
+                            "debut": "12:30",
+                            "fin": "15:30",
+                            "type": "TP",
+                            "matiere": "PROGWEB",
+                            "enseignant": "Didier Michel",
+                            "salle": "E208"
+                        }
+                    ]
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "08:00",
+                            "fin": "09:45",
+                            "type": "Cours",
+                            "matiere": "POGL",
+                            "enseignant": "Gruau",
+                            "salle": "E208"
+                        },
+                        {
+                            "debut": "10:00",
+                            "fin": "11:15",
+                            "type": "TP",
+                            "matiere": "PCII",
+                            "enseignant": "Nicolas  Sabouret",
+                            "salle": "E203"
+                        }
+                    ],
+                    "groupe2": [
+                        {
+                            "debut": "14:00",
+                            "fin": "17:00",
+                            "type": "Cours",
+                            "matiere": "BD",
+                            "enseignant": "Zinedine  Zidane",
+                            "salle": "E208"
+                        },
+                        {
+                            "debut": "08:30",
+                            "fin": "10:30",
+                            "type": "TP",
+                            "matiere": "PFA",
+                            "enseignant": "Pablo Arighi",
+                            "salle": "E201"
+                        }
+                    ]
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "10:15",
+                            "fin": "12:15",
+                            "type": "Cours",
+                            "matiere": "PCII",
+                            "enseignant": "Amine Larbi",
+                            "salle": "E208"
+                        },
+                        {
+                            "debut": "12:30",
+                            "fin": "16:30",
+                            "type": "Cours",
+                            "matiere": "PROGWEB",
+                            "enseignant": "Yiang Lhin",
+                            "salle": "E203"
+                        }
+                    ],
+                    "groupe2": [
+                        {
+                            "debut": "08:00",
+                            "fin": "10:00",
+                            "type": "Cours",
+                            "matiere": "BD",
+                            "enseignant": "Robert Duboit",
+                            "salle": "E208"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "Semaine 2": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "10:00",
+                            "fin": "11:15",
+                            "type": "Cours",
+                            "matiere": "POGL",
+                            "enseignant": "Gruau",
+                            "salle": "E208"
+                        }
+                    ],
+                    "groupe2": [
+                        {
+                            "debut": "09:15",
+                            "fin": "11:00",
+                            "type": "Cours",
+                            "matiere": "ANGLAIS",
+                            "enseignant": "Christine Paulin",
+                            "salle": "E203"
+                        },
+                        {
+                            "debut": "14:00",
+                            "fin": "17:00",
+                            "type": "Cours",
+                            "matiere": "LOGIQUE",
+                            "enseignant": "Christine Paulin",
+                            "salle": "E205"
+                        }
+                    ]
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 3": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 4": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 5": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 6": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 7": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 8": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 9": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ],
+    "Semaine 10": [
+        {
+            "lundi": [
+                {
+                    "groupe1": [
+                        {
+                            "debut": "08:00",
+                            "fin": "10:00",
+                            "type": "TP",
+                            "matiere": "PCII",
+                            "enseignant": "Laurant Rozas",
+                            "salle": "E207"
+                        }
+                    ],
+                    "groupe2": []
+                }
+            ],
+            "mardi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "mercredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "jeudi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ],
+            "vendredi": [
+                {
+                    "groupe1": [],
+                    "groupe2": []
+                }
+            ]
+        }
+    ]
+}

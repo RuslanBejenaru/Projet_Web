@@ -1,0 +1,11 @@
+{
+    "etudiant" : [
+        {
+            "mail" : "mail@gmail",
+            "mdp" : "mail"
+        },
+        {   "mail" : "email@email",
+            "mdp"  : "mail"
+        }
+    ]
+}
