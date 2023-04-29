@@ -9,7 +9,7 @@ if (isset($_GET['id'], $_GET['nom'])) {
     if (!array_key_exists($id, $cours)) {
         $cours[$id] = $nom;
         file_put_contents('cours.json', json_encode($cours, JSON_PRETTY_PRINT));
-        header("Location: listeInfo.php");
+        header("Location: ../listeInfo.php");
     } else {
         echo "Erreur : l'ID du cours existe déjà.";
     }

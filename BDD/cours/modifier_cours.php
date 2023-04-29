@@ -9,7 +9,7 @@ if (isset($_GET['id'], $_GET['nom'])) {
     $cours[$id] = $nom;
 
     file_put_contents('cours.json', json_encode($cours, JSON_PRETTY_PRINT));
-    header("Location: listeInfo.php");
+    header("Location: ../listeInfo.php");
 } else {
     echo "Erreur lors de la modification.";
 }
