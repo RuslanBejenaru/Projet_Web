@@ -1,34 +1,34 @@
 [
     {
-        "id": 0,
-        "nom": "E201"
+        "id": "0",
+        "nom": "ALGO"
     },
     {
-        "id": 1,
-        "nom": "E202"
+        "id": "1",
+        "nom": "POGL"
     },
     {
         "id": "2",
-        "nom": "E203"
+        "nom": "ANGLAIS"
     },
     {
         "id": "3",
-        "nom": "E204"
+        "nom": "PFA"
     },
     {
         "id": "4",
-        "nom": "E205"
+        "nom": "PCII"
     },
     {
         "id": "5",
-        "nom": "E206"
+        "nom": "LOGIQUE"
     },
     {
         "id": "6",
-        "nom": "E207"
+        "nom": "PROGWEB"
     },
     {
         "id": "7",
-        "nom": "E208"
+        "nom": "BD"
     }
 ]
