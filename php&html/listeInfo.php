@@ -154,7 +154,7 @@
             <profil>
                 <a><img src="../img/guest.png" id="profile-pic"></a>
             </profil>
-        </header>;
+        </header>
         <content>
             <div class="column">
                 <!-- Affichage des enseignants -->
