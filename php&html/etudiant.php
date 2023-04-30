@@ -284,87 +284,13 @@
                                 echo "<td></td>";
                             }
                         }
-
                         // On ferme la ligne
                         echo '</tr>';
                         $i++;
                     }
                 }
-            
-                
             echo'</tbody>';
         echo'</table>';
     ?>
 </body>
-
-<img src="../img/plus.png" id="add" onclick="openform();">
-<!-- Mon pop up qui contiendra mon formulaire pour ajouter les cours -->
-<div class="pop_up">
-    <!-- L'icone Croix pour fermer le pop-up -->
-    <i class="uil uil-multiply" id="close" onclick="closeform()"></i>
-    <!-- Le formulaire -->
-    <form action="etudiant.php" method="POST" id="form" >
-        <div class=form>
-            <!-- Le numéro de semaine du cours a ajouté -->
-            <div class="info">
-                <label for="num_semaine">Semaine :</label>  
-                <input type="number" id="num_semaine" name="num_semaine" min="1" max="52" required><br><br>
-            </div>
-            <!-- Le jour du cours a ajouté -->
-            <div class="info">
-                <label for="jour">Jour :</label>
-                <select id="jour" name="jour" required>
-                    <option value="lundi">Lundi</option>
-                    <option value="mardi">Mardi</option>
-                    <option value="mercredi">Mercredi</option>
-                    <option value="jeudi">Jeudi</option>
-                    <option value="vendredi">Vendredi</option>
-                </select><br><br>
-            </div>
-            <!-- Le groupe concerné par le cours a ajouté -->
-            <div class="info">
-            <label for="groupe">Groupe:</label>
-            <select id="groupe" name="groupe" required>
-                <option value="groupe1">Groupe 1</option>
-                <option value="groupe2">Groupe 2</option>
-            </select><br><br>
-            </div>
-            <!-- La matière du cours a ajouté -->
-            <div class='info'>
-                <label for="nom_cours">Matière :</label>
-                <input type="text" id="nom_cours" name="nom_cours" required><br><br>
-            </div>
-            <!-- On précise si c'est un cours, tp ou examen -->
-            <div class='info'>
-                <label for="type_cours">Type de cours :</label>
-                <select id="type_cours" name="type_cours" required>
-                    <option value="TP">TP</option>
-                    <option value="Cours">Cours</option>
-                </select><br><br>
-            </div>
-            <!-- On précise quel enseignant se chargera du cours-->
-            <div class='info'>
-                <label for="enseignant">Enseignant :</label>
-                <input type="text" id="enseignant" name="enseignant" required><br><br>
-            </div>
-            <!-- On précise la salle ou se tiendra le cours -->
-            <div class='info'>
-                <label for="salle">Salle :</label>
-                <input type="text" id="salle" name="salle" required><br><br>
-            </div>
-            <!-- On précisera l'heure de début du cours -->
-            <div class='info'>
-                <label for="heure_debut">Heure de début :</label>
-                <input type="time" id="heure_debut" name="heure_debut" step="900" min="08:00:00" max="18:00:00" required><br><br>
-            </div>
-            <!-- On précisera l'heure de fin du cours -->
-            <div class='info'>
-                <label for="heure_fin">Heure de fin :</label>
-                <input type="time" id="heure_fin" name="heure_fin" step="900"  max="19:00:00" min="08:30:00" required><br><br>
-            </div>
-        </div>
-        <!-- Une fois toutes les cases remplies on soumet le formulaire avec l'input ci dessous -->
-        <input type="submit" value="Valider" name="submit">
-    </form>
-</div>
 </html>
