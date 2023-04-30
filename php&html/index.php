@@ -18,7 +18,12 @@
         $_SESSION ["loggedin"]=true;
         $_SESSION ["loggein"]=$pseudo;
         $_SESSION ["sem"] = 1;
-        header('Location: etudiant.php');
+        if ($fonction == "enseignant") {
+          header('Location: enseignant.php');
+        }
+        else if ($fonction == "etudiant") {
+          header('Location:etudiant.php');
+        }
         exit;
       }
     }
@@ -75,7 +80,7 @@
         <select class="input-field" id="fonction" name="fonction" required>
             <option value="etudiant">Etudiant</option>
             <option value="enseignant">Enseignant</option>
-            <option value="administrateur">Administrateur</option>
+            <option value="admin">Administrateur</option>
         </select required>
       </div>
       <!-- Dans le cas où l'utilisateur a oublié son mdp mais ce sera optionnel dans le projet -->
