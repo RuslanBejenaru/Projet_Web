@@ -1,11 +1,20 @@
 {
     "etudiant" : [
         {
-            "mail" : "mail@gmail",
-            "mdp" : "mail"
-        },
-        {   "mail" : "email@email",
-            "mdp"  : "mail"
+            "mail" : "etd@gmail.com",
+            "mdp" : "mdp"
+        }
+    ],
+    "enseignant" : [
+        {
+            "mail" : "ens@gmail.com",
+            "mdp" : "mdp"
+        }
+    ],
+    "admin" : [
+        {
+            "mail" : "admin@gmail.com",
+            "mdp" : "mdp"
         }
     ]
 }

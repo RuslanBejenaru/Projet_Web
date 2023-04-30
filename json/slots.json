@@ -37,6 +37,14 @@
                             "matiere": "LOGIQUE",
                             "enseignant": "Christine Paulin",
                             "salle": "E203"
+                        },
+                        {
+                            "debut": "08:00",
+                            "fin": "08:45",
+                            "type": "TP",
+                            "matiere": "Fran\u00e7ais",
+                            "enseignant": "Dauphine Clermont",
+                            "salle": "E208"
                         }
                     ]
                 }
