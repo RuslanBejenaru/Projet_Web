@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+#profile-pic{
+    height: 50px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+#logo{
+    height: 50px;
+    margin-left: 45px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice {
+    padding-top: 210px ;
+}
+
+#calendar, #list_interface{
+    padding: 50px;
+    margin-inline: 20px;
+    border-radius: 10px;
+    border: 2px solid #757de6;
+    width: 230px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+#calendar:hover{
+    content: url("../img/calendar1.png");
+    transform: scale(0.9);
+    background-color: #757de6;
+}
+
+#list_interface:hover{
+    content: url("../img/website1.png");
+    transform: scale(0.9);
+    background-color: #757de6;
+}
+
