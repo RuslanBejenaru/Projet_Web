@@ -37,14 +37,6 @@
                             "matiere": "LOGIQUE",
                             "enseignant": "Christine Paulin",
                             "salle": "E203"
-                        },
-                        {
-                            "debut": "08:00",
-                            "fin": "09:00",
-                            "type": "TP",
-                            "matiere": "BD",
-                            "enseignant": "Nathan Solal",
-                            "salle": "E202"
                         }
                     ]
                 }
@@ -107,14 +99,6 @@
                             "matiere": "PFA",
                             "enseignant": "Kym Nguyen",
                             "salle": "E205"
-                        },
-                        {
-                            "debut": "08:00",
-                            "fin": "08:30",
-                            "type": "TP",
-                            "matiere": "ALGO",
-                            "enseignant": "Laurant Rozas",
-                            "salle": "E208"
                         }
                     ],
                     "groupe2": [
