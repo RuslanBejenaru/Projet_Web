@@ -24,6 +24,9 @@
         else if ($fonction == "etudiant") {
           header('Location:etudiant.php');
         }
+        else if ($fonction == "admin") {
+          header('Location:mediation.html');
+        }
         exit;
       }
     }
@@ -54,7 +57,7 @@
 <!-- Entete -->
 <header>
   <div class="container">
-  <img id="logo" src="logo_fac.png">
+  <img id="logo" src="../img/logotransparent.png" width="200px">
   <div id="titre_principale" > Authentification</div>
   <div></div>
   </div>

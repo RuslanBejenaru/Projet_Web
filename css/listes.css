@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+#profile-pic{
+    height: 50px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+#logo{
+    height: 50px;
+    margin-left: 45px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+content {
+    font-family: 'Roboto Slab', serif;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.column {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color :#757de6;
+}
+li {
+    list-style: none;
+}
+
+.box{
+    background-color : white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-right: 35px;
+}
+
+.edit{
+    background-image: url('../img/brush.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-size: contain; /* ajuste la taille de l'image pour qu'elle soit entièrement visible */
+}
+
+.remove{
+    background-color: white;
+    background-image: url('../img/x-button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    background-size: contain; /* ajuste la taille de l'image pour qu'elle soit entièrement visible */
+}
+
+.add{
+    color : white;
+    background-color: #757de6;
+    width : 230px;
+    padding-inline: 20px;
+    padding-block: 5px;
+    font-size: 18px;
+    border-radius: 20px;
+    transition-duration: 1s;
+}
+
+button {
+    background-color: white;
+    border: 1px solid grey;
+    transition-duration: 1s;
+}
+
+button:hover{
+    cursor : pointer;
+    opacity: 0.8;
+    transform: scale(0.95);
+}

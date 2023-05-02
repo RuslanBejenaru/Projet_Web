@@ -332,7 +332,16 @@
             <!-- La matière du cours a ajouté -->
             <div class='info'>
                 <label for="nom_cours">Matière :</label>
-                <input type="text" id="nom_cours" name="nom_cours" required><br><br>
+                <select id="nom_cours" name="nom_cours" required>
+                    <?php
+                        $matieres_json = file_get_contents('../json/matieres.json');
+                        // Convertir le fichier JSON en tableau PHP associatif
+                        $matieres = json_decode($matieres_json, true);
+                        foreach ($matieres as $matiere) {
+                            echo'<option value="'. $matiere['nom'] .'">'.$matiere['nom'].'</option>';
+                        }
+                    ?>
+                </select><br><br>
             </div>
             <!-- On précise si c'est un cours, tp ou examen -->
             <div class='info'>
@@ -345,12 +354,30 @@
             <!-- On précise quel enseignant se chargera du cours-->
             <div class='info'>
                 <label for="enseignant">Enseignant :</label>
-                <input type="text" id="enseignant" name="enseignant" required><br><br>
+                <select id="enseignant" name="enseignant" required>
+                    <?php
+                        $enseignants_json = file_get_contents('../json/enseignants.json');
+                        // Convertir le fichier JSON en tableau PHP associatif
+                        $enseignants = json_decode($enseignants_json, true);
+                        foreach ($enseignants as $enseignant) {
+                            echo'<option value="'. $enseignant['nom'] .'">'.$enseignant['nom'].'</option>';
+                        }
+                    ?>
+                </select><br><br>
             </div>
             <!-- On précise la salle ou se tiendra le cours -->
             <div class='info'>
                 <label for="salle">Salle :</label>
-                <input type="text" id="salle" name="salle" required><br><br>
+                <select id="salle" name="salle" required>
+                    <?php
+                        $salles_json = file_get_contents('../json/salles.json');
+                        // Convertir le fichier JSON en tableau PHP associatif
+                        $salles = json_decode($salles_json, true);
+                        foreach ($salles as $salle) {
+                            echo'<option value="'. $salle['nom'] .'">'.$salle['nom'].'</option>';
+                        }
+                    ?>
+                </select><br><br>
             </div>
             <!-- On précisera l'heure de début du cours -->
             <div class='info'>
